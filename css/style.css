@@ -17,13 +17,7 @@ width: 100%;}
     margin: 20px auto;
     display: flex;
     flex-grow: 0;
-    flex-shrink: 0;
-  /*flex-basis: 33.3333%;
-  flex-basis: 300px;*/
-  /*align-items: center;
-  justify-content: center;
-  flex-direction: column;*/
-}
+    flex-shrink: 0;}
 
 .section3{margin: 0px 22px;}
 
@@ -73,101 +67,6 @@ justify-content:flex-end;}
 .container3{
     border: 1px solid #000000;}
 
-
-    /*
-    display: grid;
-    grid-gap: 2% 2%;}
-
-.section1{grid-area: section1;}
-.section2{grid-area: section2;}
-.section3{grid-area: section3;}
-.section4{grid-area: section4;}
-.section5{grid-area: section5;}
-.section6{grid-area: section6;}
-.section7{grid-area: section7;}
-.section8{grid-area: section8;}
-.section9{grid-area: section9;}
-.section10{grid-area: section10;}
-
-.container0{
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section1";}
-
-.container1{
-    grid-template-columns: repeat(6,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section2 section3 section3 section3 section3 section4";}
-
-.container2{
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section5 section5 section5 section6";}
-
-.section7,.section8,.section9,.section10 { margin: 20px 10px;}
-
-.container3{
-    border: 1px solid #000000;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section7 section8 section9 section10";}
-
-/*960 t0 1200*/
-/*
-@media (min-width: 961px) and (max-width: 1200px){  
-.container1{
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section2 section3 section3 section4";}
-
-.container2{
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section5 section5 section6";}
-
-.container3{
-    border: 1px solid #000000;    
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section7 section8 section9 section10";}
-}
-
-/*768 t0 960*/
-/*
-@media (min-width: 769px) and (max-width: 960px){
-.container1{
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section2 section3 section4";}
-
-.container2{
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section5 section6";}
-
-.container3{
-    grid-gap: 2px;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section7 section8" "section9 section10";}    
-}
-
-/*For mobile view*/
-/*
-@media only screen and (max-width: 768px) {
-    .container1{
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section2" "section3" "section4";}
-
-.container2{
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section5" "section6";}
-
-.container3{
-    grid-gap: 2px;
-    grid-template-columns: repeat(1,1fr);
-    grid-template-rows: auto;
-    grid-template-areas: "section7" "section8" "section9" "section10";}    
+[class*="contentsec"] {
+    flex: 1 1 auto;
 }
